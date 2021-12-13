@@ -1,0 +1,62 @@
+*{
+    margin-top: -0px;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+#page2 .box1 .pad {
+	padding:10px 0 15px 30px;
+}
+.box1 .pad {
+	padding:20px 0 15px 30px
+}
+.pad {
+	padding:20px 0 39px 40px
+}
+.col2 {
+	width:570px;
+}
+.col1, .col2, .col3, .cols {
+	float:left;
+}
+body {
+	background:#000;
+	border:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#46381b;
+	line-height:20px;
+	min-width:980px
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div {
+    display: block;
+}
+* {
+    border: none;
+}
+.color1 {
+    color: #f3b21d;
+}
+a {
+    color: #72716f;
+    text-decoration: underline;
+    outline: none;
+}
