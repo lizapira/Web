@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <link rel="stylesheet" href="css/navstyle.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/booking.css">
     <link rel="icon" href="images/logo1.png" type="image/png">
+
 <style>
 body  {
   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/image4.jpg") ;
@@ -27,7 +30,33 @@ body  {
 
 </nav>
 
-
+<form  >
+<fieldset>
+  <legend>Personal Details: </legend>
+  <label for="name"> Username: </label>  <input type="text" name="username" id="name" required autofocus placeholder="Your username" pattern="[a-zA-Z]{3,}" title="Please enter in more than three letters">
+  <label for="email">Email:   </label>   <input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter in a valid email address">
+  <label for="phone">Phone:    </label>  <input type="tel" name="phone" id="phone" required placeholder="Please enter in your phone number" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" title="Please enter in a phone number in thi format: ### ### ###">
+  <select name="country" required>
+      <option value=""> </option>
+      <option value="US">US </option>
+      <option value="UK">UK </option>
+      <option value="AUS">AUS </option>
+  </select>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Booking Details: </legend>
+    <label for="date">Booking date: </label> <input id="date" type="date" name="date" min="2021-12-02">
+    <label for="numberOfGuests">Number Of Guests: </label><input id="numberOfGuests"   type="number" name="numberOfGuests" min="1" max="6">
+    <p>Do you require meals?</p>
+    <label for="yesMeals">Yes:</label>   <input id="yesMeals" type="radio" name="meals" value="yesMeals">
+    <label for="noMeals">No:</label><input id="noMeals"  type="radio" name="meals" value="noMeals">
+    <br>
+    <label for="balcony">Do you require a balcony?</label>    <input id="balcony"   type="checkbox" name="balcony" value="yes" checked>
+    <br>
+    <button>Submit </button> 
+</fieldset>
+</form>
 
 
 </body>
