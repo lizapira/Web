@@ -1,62 +1,146 @@
 *{
-    margin-top: -0px;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 
-.wrapper {
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-slider{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    margin-top: 400px;
+    position:sticky;
+ 
+}
+.img-slider .slide{
+    z-index: 1;
+    position: absolute;
     width: 100%;
-    overflow: hidden;
+    clip-path: circle(0% at 0 50%);
+}
+.img-slider .slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 7s;
+    transition-property: clip-path;
 }
 
 
 
-#page2 .box1 .pad {
-	padding:10px 0 15px 30px;
+
+.img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
 }
-.box1 .pad {
-	padding:20px 0 15px 30px
+
+.img-slider .slide .info{
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
 }
-.pad {
-	padding:20px 0 39px 40px
+.img-slider .slide .info h2{
+    color: peru;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
-.col2 {
-	width:570px;
+.img-slider .slide .info p{
+    color: peru;
+    background: burlywood;
+    font-size: 16px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
 }
-.col1, .col2, .col3, .cols {
-	float:left;
+.img-slider .navigation{
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
-body {
-	background:#000;
-	border:0;
-	font:12px Arial, Helvetica, sans-serif;
-	color:#46381b;
-	line-height:20px;
-	min-width:980px
+.img-slider .navigation .btn{
+    background: burlywood;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
 }
-figure {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+.img-slider .navigation .btn.active{
+    background: white;
+    box-shadow: 0 0 2px white;
+ 
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-div {
-    display: block;
-}
-* {
-    border: none;
-}
-.color1 {
-    color: #f3b21d;
-}
-a {
-    color: #72716f;
-    text-decoration: underline;
-    outline: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
