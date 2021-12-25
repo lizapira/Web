@@ -1,31 +1,22 @@
-element.style {
-    height: 302.281px;
-}
+
 
 .img-container  {
    
    padding-left: 55px;
+   
 }
 .btn{
     padding-left: 250px;
     color:rgb(180, 147, 115);
 }
-/*
-body {
-    font-family: Philosopher;
-    font-weight: 400;
-    font-style: normal;
-    opacity: 1;
-    visibility: visible;
-    
-}
-*/
+
 .details {
-    margin-left: 590px;
-    margin-right: 40px;
-    margin-bottom: 10px;
-    border: 5px solid rgb(180, 147, 115);
-    display: block;
+    margin-top: 19px;
+    margin-right: 740px;
+    margin-bottom: 19px;
+    border: 5px inset rgb(180, 147, 115);
+    margin-left: 50px;
+    
   
 }
 .title{
@@ -39,25 +30,24 @@ body {
 .desc{
     font-family: Philosopher;
     position: relative;
-    padding: 40px 20px 50px;
+    padding: 40px 2px ;
     font: 15px/20px "Source Sans Pro", Arial, Helvetica, sans-serif;
     color: peru;
     line-height: 35px;
 }
-div {
-    display: block;
-}
+
 
 .price{
     border : 1px solid #C5A46D; ; 
     margin-right: 0px;
-    margin-left: 580px;
+    margin-left: 450px;
     border-left-width: 5px;
     border-bottom-width: 5px;
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
+    background-color: rgb(250, 216, 182);
 }
 
 ol li {
@@ -67,6 +57,12 @@ ol li {
     color:#C5A46D; 
 }
 
+footer h3{
+    color:  rgb(158, 119, 80);
+    margin-left: 1100px;
+    
+    margin-bottom: 10px;
+}
 
 
 
