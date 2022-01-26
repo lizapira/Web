@@ -16,7 +16,7 @@ if(isset($_POST['Login'])){
         while($row=mysqli_fetch_array($result)){
             echo'<script type="text/javascript">alert("you are log in successfully and you are logined as ' .$row['usertype'].'")</script>';
         }
-        if(mysqli_num_rows($result)>0){
+        if($username=="admin"){
             ?>
             <script type="text/javascript">
   window.location.href="admin.php"</script>
