@@ -106,8 +106,8 @@
 				<td style="color: peru;"><b>Unable to Login</b></td>
 			</tr>
 			<tr>
-				<td><button type="button"><a style="text-decoration: none;  font-size: 25px;" href="admin_signup.php ">User SignUp</a></button></td>
-				<td><button type="button"><a style="text-decoration: none; font-size: 25px;" href="admin_forgot_pwd.php">Forgot Password</a></button></td>
+				<td><button type="button"><a style="text-decoration: none;  font-size: 25px; " href="admin_signup.php ">User SignUp</a></button></td>
+				<td><button type="button"><a style="text-decoration: none; font-size: 25px;  peru;" href="admin_forgot_pwd.php">Forgot Password</a></button></td>
 			</tr>
 		</table>
 </div>
