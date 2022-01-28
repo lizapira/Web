@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>
-			The Dream Hotel
+			Golden Hotel
 		</title>
 	</head>
 	<style>
