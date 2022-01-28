@@ -47,7 +47,7 @@ body{
     
 }
 .form button:hover ,.form button:active{
-    background:saddlebrown
+    background:saddlebrown;
 }
 .form .message{
     margin: 15px 0 0;

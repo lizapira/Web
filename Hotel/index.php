@@ -19,7 +19,7 @@
 		ul
 		{
   			list-style-type: none;
-			background-color: rgba(09,41,98,0.9);
+			background-color: saddlebrown;
 			margin-bottom: 10px;
 			color: white;
 			margin-top: -38px;
@@ -38,7 +38,7 @@
 		}
 		h1
 		{
-			background-color: rgba(09,41,98,0.9);
+			background-color:saddlebrown;
 			color: white;
 			border: 10px;
 			margin-left: -10px;
@@ -78,7 +78,7 @@
 			font-size: 35px;
 			text-align: center;
 			text-shadow: 2px 2px black;
-			background-color: rgba(09,41,98,0.99);
+			background-color: peru;
 			width: 500px;
 			margin: auto;
 			border-radius: 50px;
@@ -93,16 +93,16 @@
 
 		.welcome1
 		{
-			color: black;
+			color: peru;
 			font-family: "Courier New, monospace";
 			font-size: 28px;
 		}
 		.welcome2
 		{
-			color: black;
+			color: peru;
 			font-family: Snell Roundhand, cursive;
 			font-size: 24px;
-			color: teal;
+			color: per;
 		}
 		.basic_box {
 			border: 1px solid #ccc;
@@ -119,7 +119,7 @@
 			font-size: 35px;
 			text-align: center;
 			text-shadow: 2px 2px black;
-			background-color: rgba(09,41,98,0.99);
+			background-color: peru;
 			width: 500px;
 			margin: auto;
 			border-radius: 40px;
@@ -133,7 +133,7 @@
   			padding: 5px;
 		}
 		.footer {
-			background-color: rgba(09,41,98,0.99);
+			background-color:saddlebrown;
 			bottom: 0px;
 			margin: 0px;
 			margin-bottom: 0px;
@@ -159,7 +159,7 @@
 			font-size: 35px;
 			text-align: center;
 			text-shadow: 2px 2px black;
-			background-color: #4AB8F9;
+			background-color: saddlebrown;
 			width: 500px;
 			margin: auto;
 			border-radius: 50px;
@@ -229,7 +229,7 @@
 
 	<body style="background: #f2f2f2;">
 		
-		<h1>THE <p style="color: #e6b800; display: inline;">DELUXE</p> HOTEL</h1>
+		<h1> Golden <p style="color:peru; display: inline;">Hotel</p></h1>
 
 		<ul>
 			<li><a href="index.php">HOME</a>
@@ -243,17 +243,17 @@
 		<div class="slideshow-container">
 
 		<div class="mySlides fade">
-		  <img id="1" src="Images/1.jpg" style="width:100%">
+		  <img id="1" src="images/image2.jpg" style="width:100%">
 		  <div class="text">ENJOY THE DREAM EXPERIENCE</div>
 		</div>
 
 		<div class="mySlides fade">
-		  <img id="2" src="Images/2.jpg" style="width:100%">
+		  <img id="2" src="images/hoteli.jpg" style="width:100%">
 		  <div class="text">REDEfINE LUXURY</div>
 		</div>
 
 		<div class="mySlides fade">
-		  <img id="3" src="Images/3.jpg" style="width:100%">
+		  <img id="3" src="images/hoteli2.jpg" style="width:100%">
 		  <div class="text">SAVOUR EVERY SERVE, EVERY SERVICE</div>
 		</div>
 
@@ -297,13 +297,13 @@
 		<div id="rooms_and_rates" class="basic_box">
 			<div class="row">
   				<div class="column">
-    				<img src="images/1.jpg" alt="Snow" style="width:100%">
+    				<img src="images/room1.jpg" alt="Deluxe Room" style="width:100%">
   				</div>
   				<div class="column">
-    				<img src="images/2.jpg" alt="Forest" style="width:100%">
+    				<img src="images/room3.jpg" alt="Exclusive Room" style="width:100%">
   				</div>
   				<div class="column">
-    				<img src="images/3.jpg" alt="Mountains" style="width:100%">
+    				<img src="images/room6.jpg" alt="VIP Room" style="width:100%">
   				</div>
 			</div>
 			<div class="row">
@@ -314,15 +314,15 @@
     				<h3>Executive Room</h3>
   				</div>
   				<div class="column">
-    				<h3>Standard Room</h3>
+    				<h3>VIP Room</h3>
   				</div>
 			</div>
 		</div><br>
 		<div id="contact" class="footer">
 			<hr>
-			<h2 class="foot-text">Contact Us!</h2>
-			<h3 class="foot-text">Developers: Ayush,Aryan,Harsha</h3><br>
-			<a href="footer.php">Contact US Via</a>
+			<h2 class="foot-text"> Since 1999 <br> Contact Us 0041768908</h2>
+		
+			
 		</div>
 	</body>
 </html>
