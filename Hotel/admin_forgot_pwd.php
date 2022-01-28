@@ -5,30 +5,34 @@
 </head>
 <style>
 	div {
-		width: 40%;
+		width: 65%;
 		height: 100%;
+		size: 100px;
 		text-align: center;
 		position: relative;
-		margin-right: 30%;
-		margin-left: 30%;
+		margin-right: 20%;
+		margin-left: 20%;
 		vertical-align: middle;
 		font-size: 30px;
-		border: 4px solid #009999;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		border-radius: 20px;
+		border: 4px solid peru;
+		padding-top: 25px;
+		padding-bottom: 50px;
+		color:peru;
+		border: 10px solid saddlebrown;
+		border-radius: 15px;
 	}
 	body  {
-	  	background-color: #d9d9d9;
+		margin-top: -100px;
+	  	background-color: #FFFFF0;
 	  	background-position: right top;
 	  	background-attachment: fixed;
 	  	background-size: cover;
 	}
 	button {
-		background-color: #009999;
-		border: 1px solid #a6a6a6;
+		background-color: peru;
+		border: 1px solid saddlebrown;
 		border-radius: 10px;
-		box-shadow: 2px 2px #a6a6a6;
+		box-shadow: 2px 2px peru;
 	}
 	.input {
 		font-size: 22px;
@@ -61,23 +65,23 @@
 </style>
 <body>
 	<br><br><br><br><br><br><br><br><br><br>
-	<div style="background-color: #f2f2f2;">
+	<div style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img1.jpg);">
 		<form method="post" action="admin_forgot_pwd1.php">
 			<table>
 				<tr>
-						<td colspan="2"><p style="font-size: 35px; font-family: 'Times New Roman', serif; color: #009999;"><b>Admin Forgot Password</b></p></td>
+						<td colspan="2"><p style="font-size: 35px; font-family: 'Times New Roman', serif; color: peru;"><b>Admin Forgot Password</b></p></td>
 				</tr>
 				<tr>
-					<td>Enter UserID:</td>
+					<td></td>
 					<td><input class="input" type="text" name="adminid" placeholder="Enter user ID" required></td>
 				</tr>
 				<tr>
-					<td>Enter EmployeeID:</td>
+					<td></td>
 					<td><input class="input" type="text" name="empid" placeholder="Enter emp ID" required></td>
 				</tr>
 				<tr><td><br></td></tr>
 				<tr>
-					<td colspan="2"><input style="font-size: 25px; background-color: #009999; border: 1px solid #a6a6a6; box-shadow: 2px 2px #a6a6a6; color: white; border-radius: 10px;" type="submit" value="Submit"></td>
+					<td colspan="2"><input style="font-size: 25px; background-color: peru; border: 1px solid sanddlebrown; box-shadow: 2px 2px saddlebrown; color: white; border-radius: 10px;" type="submit" value="Submit"></td>
 				</tr>
 			</table>
 		</form>
