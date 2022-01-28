@@ -9,7 +9,7 @@
 		body {
 			margin: 0px;
 		}
-		}
+	}
 		.border {
 			border: 1px solid #ccc;
 			border-radius: 5px;
