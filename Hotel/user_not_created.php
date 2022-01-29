@@ -5,28 +5,31 @@
 </head>
 <style>
 	div {
-		width: 40%;
+		width: 65%;
 		height: 100%;
 		text-align: center;
 		position: relative;
-		margin-right: 30%;
-		margin-left: 30%;
+		margin-right: 20%;
+		margin-left: 20%;
 		vertical-align: middle;
 		font-size: 30px;
-		border: 4px solid #009999;
+		border: 4px solid saddlebrown;
 		padding-top: 30px;
 		padding-bottom: 30px;
-		border-radius: 20px;
+		border-radius: 15px;
+		color:peru;
 	}
 	body  {
-	  	background-color: #d9d9d9;
+		margin-top:65px;
+	  	background-color: #FFFFF0;
 	  	background-position: right top;
 	  	background-attachment: fixed;
 	  	background-size: cover;
+		  font-family:sans-serif;
 	}
 </style>
 <body>
-	<div style="background-color: #f2f2f2;">
+<div style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img1.jpg);">
 	<br><br>New Not User Created.
 	<br><br>
 	<a href="user_login.php">Redirect to User Login</a>
