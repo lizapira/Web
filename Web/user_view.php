@@ -8,8 +8,9 @@
 		background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/adminpicture.jpg");
 color: peru;
   height: 5vh;
-    background-size: cover;
-    background-position: center;
+  
+   background-position:center;
+   
 	}
 	table {
 		font-size: 30px;
