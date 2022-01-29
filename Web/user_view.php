@@ -5,8 +5,11 @@
 </head>
 <style>
 	body {
-	  margin: 0;
-	  background: #f2f2f2;
+		background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/adminpicture.jpg");
+color: peru;
+  height: 5vh;
+    background-size: cover;
+    background-position: center;
 	}
 	table {
 		font-size: 30px;
@@ -16,7 +19,7 @@
 	}
 	#td1
 	{
-		background-color: rgba(09,41,98,0.9);
+		background-color: saddlebrown;
 		color: white;
 		border: 10px;
 		margin-top: -10px;
@@ -28,7 +31,7 @@
 	  	padding: 0;
 	  	width: 22%;
 	  	font-size: 24px;
-	  	background-color: rgba(09,41,98,0.9);
+	  	background-color: peru;
 	  	text-decoration: none;
 	  	position: fixed;
 	  	height: 100%;
@@ -44,12 +47,12 @@
 	  	text-decoration: none;
 	}
 	li a:visited {
-	  	background-color: #e6b800;
+	  	background-color: saddlebrown;
 	  	color: white;
 	  	text-decoration: underline;	
 	}
 	li a:active {
-	  	background-color: #e6b800;
+	  	background-color: saddlebrown;
 	  	color: white;
 	  	text-decoration: underline;		
 	}
@@ -59,12 +62,12 @@
 	  	text-decoration: underline;
 	}
 	.basic_box {
-		border: 1px solid #ccc;
+		border: 1px solid saddlebrown;
 		border-radius: 15px;
 		margin: auto;
 		width: 600px;
 		padding: 50px;
-		box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+		box-shadow: 0 10px 20px peru;
 	}
 	.decor {
 		font-family: Times New Roman;
@@ -82,7 +85,7 @@
 		$row=mysqli_fetch_row($result); ?>
 	<table style="width: 100%;">
 		<tr>
-			<td id="td1" style="padding: 10px; font-size: 48px; position: sticky; z-index: 1">THE <p style="color: #e6b800; display: inline;">DELUXE</p> HOTEL</td>
+			<td id="td1" style="padding: 10px; font-size: 48px; position: sticky; z-index: 1">Golden <p style="color: peru; display: inline;">Hotel</p></td>
 			<td id="td1" style="font-size: 25px; text-align: right;">Hello, <?php echo $row[2]; ?></td>
 		</tr>
 	</table>
