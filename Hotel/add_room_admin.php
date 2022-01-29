@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin</title>
+	<title>Admin Add Rooms</title>
 </head>
 <style>
 	body {
-
 	  margin: 0;
-	  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/image4.jpg") ;
-      color: peru;
+	   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/image4.jpg") ;
+	  color: peru;
       height: 2vh;
     background-size: cover;
     background-position: center;
-    }
+	}
 	table {
 		font-size: 22px;
-	}
-	
-	td {
-		text-align: center;
 	}
 	#td1
 	{
@@ -35,6 +30,9 @@
 		width: 600px;
 		padding: 50px;
 		box-shadow: 0 10px 20px peru;
+	}
+	td {
+		text-align: center;
 	}
 	th {
 		font-weight: bold;
@@ -80,8 +78,8 @@
 		</tr>
 	</table>
 	<ul>
-		<li><a href="admin_view.php" class="active">Rooms Info</a></li>
-		<li><a href="add_room_admin.php">Add Room</a></li>
+		<li><a href="admin_view.php" >Rooms Info</a></li>
+		<li><a href="add_room_admin.php" class="active">Add Room</a></li>
 		<li><a href="remove_room_admin.php">Remove Rooms</a></li>
 		<li><a href="admin_room_status.php">Booking Requests</a></li>
 		<li><a href="confirmed_bookings.php">Confirmed Bookings</a></li>
@@ -98,9 +96,10 @@
 			}
 			$sql = "SELECT * from rooms_count";
 			$result=mysqli_query($conn,$sql); ?>
-		  	<table class="basic_box">
+			<div class="basic_box">
+		  	<table>
 				<tr>
-					<th colspan="4"><p style="font-size: 28px; text-align: center; text-decoration: underline;">Rooms Info</p></th>
+					<th colspan="4"><p style="font-size: 28px; text-align: center; text-decoration: underline;">Add Rooms</p></th>
 				</tr>
 				<tr>
 					<th>Room Type</th>
@@ -118,8 +117,31 @@
 					<td><?php echo $row[3]; 
 			} ?></td>
 				</tr>
+			</table>
+			<br><br><br>
+			<form action="admin_room_added.php" method="post">
+			<table>
+				<tr>
+					<td style="text-align: left;"><b>Select room type:</td>
+					<td style="text-align: left;">
+						<select name="rooms" required>
+							<option value="">Select</option>
+							<option value="Single bed">Single bedded</option>
+							<option value="Double bed">Double bedded</option>
+							<option value="Four bed">Four bedded</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: left;">Enter number of rooms to add:</td>
+					<td style="text-align: left;"><input type="number" min="0" name="noofrooms" id="rooms" required></td>
+				</tr>
 				<tr><td></td></tr><tr><td></td></tr>
-			</table>			
+			</table>
+			<span style="margin-left: 43%"><input align="center" type="submit" value="Add Room"></span>
+			</form>
+			<br><br>
+		</div>
 	</div>
 </body>
 </html>
