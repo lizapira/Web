@@ -311,7 +311,7 @@
     				<h3>Deluxe Room</h3>
   				</div>
   				<div class="column">
-    				<h3>Executive Room</h3>
+    				<h3>Exclusive Room</h3>
   				</div>
   				<div class="column">
     				<h3>VIP Room</h3>
