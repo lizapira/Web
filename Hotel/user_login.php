@@ -5,23 +5,24 @@
 </head>
 <style>
 	div {
-		width: 40%;
+		width: 65%;
 		height: 100%;
 		text-align: center;
 		position: relative;
-		margin-right: 30%;
-		margin-left: 30%;
+		margin-right: 20%;
+		margin-left: 20%;
 		vertical-align: middle;
-		font-size: 30px;
+		
 		padding-top: 25px;
 		padding-bottom: 50px;
 		box-shadow: 0 10px 20px rgba(09,41,98,0.19);
 		border-radius: 15px;
-		color: #1E90FF;
-		border: 10px solid #094198;
+		color: peru;
+		border: 10px solid saddlebrown;
 		border-radius: 15px;
 	}
 	body  {
+		margin-top: -100px;
 	  	background-color: #FFFFF0;
 	  	background-position: right top;
 	  	background-attachment: fixed;
@@ -29,14 +30,16 @@
 	  	font-family: sans-serif;
 	}
 	button, .button {
-		background-color: #4AB8F9;
-		border: 1px solid #a6a6a6;
-		box-shadow: 2px 2px #a6a6a6;
+		background-color: peru;
+		border: 1px solid saddlebrown;
+		box-shadow: 2px 2px saddlebrown;
 	}
 	.input {
 		font-size: 22px;
 		text-align: center;
 		opacity: 0.5;
+		color: black;
+		margin-top: 30px;
 	}
 	table {
 		width: 100%;
@@ -46,7 +49,7 @@
 	}
 	button:link, button:visited, .button:link, .button:visited 
 	{
-		text-decoration: none;
+		text-decoration: peru;
 		color: white;
 		text-decoration: none;  
 		font-size: 25px;
@@ -54,15 +57,15 @@
 	button:hover, button:active, .button:hover, .button:active
 	{
 		background-color: white;
-		border: 1px solid #a6a6a6;
-		box-shadow: 2px 2px #a6a6a6;
-		color: #4AB8F9;
+		border: 1px solid saddlebrown;
+		box-shadow: 2px 2px peru;
+		color: peru;
 		text-decoration: none;  
 		font-size: 25px;
 	}
 	input:hover, input:active 
 	{
-		background-color: #8c8c8c;
+		background-color: peru;
 		box-shadow: 2px 2px #a6a6a6;
 	}
 </style>
@@ -74,20 +77,20 @@
 	<br><br>
 	<br>
 	<br>
-	<div style="background-color: #E6F2F8;">
+	<div style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img1.jpg);">
 		<form action="user_logged_in.php" method="post">
 			<table>
 				<tr>
-					<td colspan="2"><p style="font-size: 35px; color: #094198;"><b>User Login</b></p></td>
+					<td colspan="2"><p style="font-size: 35px; color: peru"><b>User Login</b></p></td>
 				</tr>
 				<tr>
-					<td>Phone number:</td>
+					<td></td>
 					<td><input class="input" type="text" name="phone" placeholder="Enter phone" required></td>
 					<br>
 				</tr>
 				<tr><td><br></td></tr>
 				<tr>
-					<td>Password:</td>
+					<td></td>
 					<td><input class="input" type="password" name="password" placeholder="Enter password" required></td>
 				</tr>
 			</table>
@@ -97,8 +100,8 @@
 		<br>
 		<table>
 			<tr>
-				<td style="color: #094198;"><b>New User?</b></td>
-				<td style="color: #094198;"><b>Unable to Login</b></td>
+				<td style="color: peru;"><b>New User?</b></td>
+				<td style="color: peru;"><b>Unable to Login</b></td>
 			</tr><tr><td></td></tr><tr><td></td></tr>
 			<tr>
 				<td><button type="button"><a style="text-decoration: none;  font-size: 25px;" href="user_signup.php">User SignUp</a></button></td>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>User Not Found</title>
+	<title>User Found</title>
 </head>
 <style>
 	div {
@@ -17,22 +17,34 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 		border-radius: 15px;
-		color:peru;
+        color:peru;
 	}
 	body  {
-		margin-top: 65px;
+        margin-top: 65px;
 	  	background-color: #FFFFF0;
 	  	background-position: right top;
 	  	background-attachment: fixed;
 	  	background-size: cover;
-		  font-family: sans-serif;
+          font-family:sans-serif;
 	}
 </style>
 <body>
 <div style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img1.jpg);">
-	<br><br>User Not Found.
-	<br><br>
-	<a href="user_login.php color:peru;">Redirect to User Login</a>
+		<?php
+			$conn = new mysqli("localhost","root","", "iwp");
+			if($conn->connect_error)
+			{
+				die("Connection failed: ".$conn->connect_error);
+			}
+			$sql = "SELECT * from temp";
+			$result=mysqli_query($conn,$sql);
+			$row=mysqli_fetch_row($result);
+			$sql = "DELETE from temp";
+			mysqli_query($conn, $sql);
+			echo "Your password is: ".$row[0];
+		?>
+		<br><br>
+		<a href="user_login.php">Redirect to User Login</a>
 	</div>
 </body>
 </html>
