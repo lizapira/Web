@@ -57,8 +57,13 @@ color: peru;
 	  	color: white;
 	  	text-decoration: underline;		
 	}
+	li a:hover:not(.active) {
+	  	background-color: peru;
+	  	color: white;
+	  	text-decoration: underline;
+	}
 	li a:hover {
-	  	background-color: #e6b800;
+	  	background-color: saddlebrown;
 	  	color: white;
 	  	text-decoration: underline;
 	}
@@ -91,7 +96,7 @@ color: peru;
 		</tr>
 	</table>
 	<ul>
-		<li><a href="user_view.php">My Info</a></li>
+		<li><a href="user_view.php" class="active">My Info</a></li>
 		<li><a href="bookroom.php">Book A Room</a></li>
 		<li><a href="user_room_status.php">Show Booking Status</a></li>
 		<li><a href="user_payment.php">Payment</a></li>

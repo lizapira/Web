@@ -57,7 +57,7 @@ color: peru;
 	  	text-decoration: underline;		
 	}
 	li a:hover {
-	  	background-color: peru;
+	  	background-color: saddlebrown;
 	  	color: white;
 	  	text-decoration: underline;
 	}
@@ -88,7 +88,7 @@ color: peru;
 	</table>
 	<ul>
 		<li><a href="user_view.php">My Info</a></li>
-		<li><a href="bookroom.php">Book A Room</a></li>
+		<li><a href="bookroom.php" class="active">Book A Room</a></li>
 		<li><a href="user_room_status.php">Show Booking Status</a></li>
 		<li><a href="user_payment.php">Payment</a></li>
 		<li><a href="user_booking_history.php">Booking History</a></li>
