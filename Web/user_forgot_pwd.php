@@ -7,34 +7,36 @@
 	div {
 		width: 65%;
 		height: 100%;
-                size:100%
 		text-align: center;
 		position: relative;
 		margin-right: 20%;
 		margin-left: 20%;
 		vertical-align: middle;
 		font-size: 30px;
-		border: 4px solid peru;
+		border: 4px solid saddlebrown;
 		padding-top: 25px;
 		padding-bottom: 50px;
-                color:peru;
-                border: 10px solid saddlebrown;
 		border-radius: 15px;
+		color:peru;
+        border: 10px solid saddlebrown;
 	}
 	body  {
-               margin-top:-100%;
+		margin-top:-5%;
 	  	background-color: #FFFFF0;
 	  	background-position: right top;
 	  	background-attachment: fixed;
 	  	background-size: cover;
+		font-family:sans-serif;
 	}
 	button {
 		background-color: peru;
 		border: 1px solid saddlebrown;
 		border-radius: 10px;
-		box-shadow: 2px 2px peru;
+		box-shadow: 2px 2px saddlebrown;
 	}
 	.input {
+		color:black;
+        margin-right:30px;
 		font-size: 22px;
 		text-align: center;
 		opacity: 0.5;
@@ -44,6 +46,8 @@
 	}
 	td {
 		text-align: center;
+		padding-left:10px;
+		padding-right:10px;
 	}
 	button:link, button:visited 
 	{
@@ -51,16 +55,16 @@
 	}
 	button:hover, button:active 
 	{
-		background-color: #e6b800;
-		border: 1px solid #a6a6a6;
+		background-color: saddlebrown;
+		border: 1px solid saddlebrown;
 		border-radius: 10px;
-		box-shadow: 2px 2px #a6a6a6;
+		box-shadow: 2px 2px peru;
 		font-size: 28px;
 	}
 	input:hover, input:active 
 	{
-		background-color: #8c8c8c;
-		box-shadow: 2px 2px #a6a6a6;
+		background-color: peru;
+		box-shadow: 2px 2px saddlebrown;
 	}
 </style>
 <body>
@@ -68,7 +72,7 @@
 		$dob = 0;
 		?>
 		<br><br><br><br><br><br><br><br><br><br>
-	<div style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img1.jpg);">
+		<div style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img1.jpg);">
 		<table>
 			<tr>
 				<td colspan="2"><p style="font-size: 35px; font-family: 'Times New Roman', serif; color: peru;"><b>User Forgot Password</b></p></td>
@@ -89,7 +93,7 @@
 			</tr>
 			<tr><td><br></td></tr>
 			<tr>
-				<td colspan="2"><input style="font-size: 28px; background-color:peru; border: 1px solid saddlebrown; box-shadow: 2px 2px saddlebrown; color: white; border-radius: 10px;" type="submit" value="Recover Password"></td>
+				<td colspan="2"><input style="font-size: 28px; background-color: peru; border: 1px solid saddlebrown; box-shadow: 2px 2px saddlebrown; color: white; border-radius: 10px;" type="submit" value="Recover Password"></td>
 			</tr>
 			</form>
 		</table>

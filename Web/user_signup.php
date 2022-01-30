@@ -10,21 +10,23 @@
 		text-align: center;
 		position: relative;
 		margin-right: 20%;
-		margin-left: 320%;
+		margin-left: 20%;
 		vertical-align: middle;
 		font-size: 30px;
 		border: 4px solid saddlebrown;
 		padding-top: 25px;
 		padding-bottom: 50px;
 		border-radius: 15px;
+		color:peru;
+        border: 10px solid saddlebrown;
 	}
 	body  {
-		margin-top: -100px;
+		margin-top: -120px;
 	  	background-color: #FFFFF0;
 	  	background-position: right top;
 	  	background-attachment: fixed;
 	  	background-size: cover;
-		font-family: sans-serif;
+		  font-family:sans-serif;
 	}
 	button {
 		background-color: peru;
@@ -33,11 +35,11 @@
 		box-shadow: 2px 2px saddlebrown;
 	}
 	.input {
+		color:black;
+		margin-right:55px;
 		font-size: 22px;
 		text-align: center;
 		opacity: 0.5;
-		color:black;
-		margin-right: 30px;
 	}
 	table {
 		width: 100%;
@@ -62,7 +64,7 @@
 	input:hover, input:active 
 	{
 		background-color: peru;
-		box-shadow: 2px 2px #a6a6a6;
+		box-shadow: 2px 2px saddlebrown;
 	}
 </style>
 <body>
@@ -90,12 +92,12 @@
 					<td><input class="input" type="email" name="email" placeholder="Enter Email" required></td>
 				</tr>
 				<tr>
-					<td style="padding-left: 60px; text-align: left;"></td>
+					<td style="padding-left: 60px; text-align: left;"> </td>
 					<td><input class="input" type="text" name="idproof" placeholder="Enter ID Proof" required></td>
 				</tr>
 				<tr>
-					<td style="padding-left: 60px; text-align: left;">Date of birth: </td>
-					<td><input class="input" type="date" name="dob" value="Date Of Birth" required></td>
+					<td style="padding-left: 60px; text-align: left;"> </td>
+					<td><input class="input" type="date" name="dob" value="01-01-2000" required></td>
 				</tr>
 				<tr><td><br></td></tr>
 				<tr>

@@ -5,11 +5,10 @@
 </head>
 <style>
 	body {
-		background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/adminpicture.jpg");
-color: peru;
-  height: 5vh;
-  
-   background-position:center;
+		background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/r1.jpg");
+        color: peru;
+        height: 3vh;
+        background-position:center;
    
 	}
 	table {

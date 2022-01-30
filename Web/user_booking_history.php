@@ -5,8 +5,10 @@
 </head>
 <style>
 	body {
-	  margin: 0;
-	  background: #f2f2f2;
+		background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/r1.jpg");
+        color: peru;
+        height: 3vh;
+        background-position:center;
 	}
 	table {
 		font-size: 22px;
