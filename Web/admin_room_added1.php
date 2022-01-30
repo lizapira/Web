@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin</title>
+	<title>Admin Room Added</title>
 </head>
 <style>
 	body {
-
-	  margin: 0;
+	 margin: 0;
 	  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/image4.jpg") ;
       color: peru;
       height: 2vh;
       background-size: cover;
       background-position: center;
-    }
+	}
 	table {
 		font-size: 22px;
 	}
-	
 	td {
 		text-align: center;
-	}
-	#td1
-	{
-		background-color: saddlebrown;
-		color: white;
-		border: 10px;
-		margin-top: -10px;
-		padding: 10px;
 	}
 	.basic_box {
 		border: 1px solid saddlebrown;
@@ -35,6 +25,14 @@
 		width: 600px;
 		padding: 50px;
 		box-shadow: 0 10px 20px peru;
+	}
+	#td1
+	{
+		background-color: saddlebrown;
+		color: white;
+		border: 10px;
+		margin-top: -10px;
+		padding: 10px;
 	}
 	th {
 		font-weight: bold;
@@ -73,6 +71,13 @@
 	  	text-decoration: underline;
 	}
 </style>
+<script>
+    function submitForm(action)
+    {
+        document.getElementById('columnarForm').action = action;
+        document.getElementById('columnarForm').submit();
+    }
+</script>
 <body>
 	<table style="width: 100%;">
 		<tr>
@@ -90,36 +95,14 @@
 	</ul>
 	<div style="margin-left:25%;padding:1px 16px;height:1000px;">
 		<p style="margin-left: 10%; margin-top: 5%; font-size: 28px;"></p>
-		<?php
-			$conn = new mysqli("localhost","root","", "iwp");
-			if($conn->connect_error)
-			{
-				die("Connection failed: ".$conn->connect_error);
-			}
-			$sql = "SELECT * from rooms_count";
-			$result=mysqli_query($conn,$sql); ?>
-		  	<table class="basic_box">
+			<table class="basic_box">
 				<tr>
-					<th colspan="4"><p style="font-size: 28px; text-align: center; text-decoration: underline;">Rooms Info</p></th>
+					<td>Admin Room added successfully</td>
 				</tr>
 				<tr>
-					<th>Room Type</th>
-					<th>Available Rooms</th>
-					<th>Occupied Rooms</th>
-					<th>Price</th>
+					<td><a href="admin_view.php">Click here to get redirected.</a></td>
 				</tr>
-			<?php 
-			while ($row=mysqli_fetch_row($result))
-    		{	?>	
-				<tr>
-					<td><?php echo $row[0]; ?></td>
-					<td><?php echo $row[1]; ?></td>
-					<td><?php echo $row[2]; ?></td>
-					<td><?php echo $row[3]; 
-			} ?></td>
-				</tr>
-				<tr><td></td></tr><tr><td></td></tr>
-			</table>			
-	</div>
-</body>
+			</table>
+		</div>
+	</body>
 </html>
